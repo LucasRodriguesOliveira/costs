@@ -1,0 +1,26 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.social-media li {
+  margin: 0 1em;
+}
+
+.social-media li:hover {
+  color: #FFBB33;
+}
+
+.social-media svg {
+  font-size: 1.5em;
+  cursor: pointer;
+}

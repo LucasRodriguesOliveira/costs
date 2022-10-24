@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "name": "New Project",
+      "budget": "9993",
+      "categoryId": "1",
+      "cost": 6000,
+      "id": 6
+    },
+    {
+      "name": "test with no services",
+      "budget": "1",
+      "categoryId": "3",
+      "cost": 0,
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "description": "Infra"
+    },
+    {
+      "id": 2,
+      "description": "Design"
+    },
+    {
+      "id": 3,
+      "description": "Planning"
+    },
+    {
+      "id": 4,
+      "description": "Development"
+    }
+  ],
+  "services": [
+    {
+      "name": "test",
+      "cost": "1000",
+      "description": "aaaa",
+      "id": "6013ad83-fcf1-49ca-b4d7-44c4f5bffc86",
+      "projectId": "6"
+    }
+  ]
+}

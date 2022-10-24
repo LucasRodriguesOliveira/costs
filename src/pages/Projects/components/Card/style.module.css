@@ -1,0 +1,89 @@
+.card {
+  padding: 1em;
+  border: 1px solid #7A7a7a;
+  border-radius: 5px;
+  width: 24%;
+  margin: 0.5%;
+}
+
+.card h4 {
+  background-color: #001122;
+  color: #FFBB33;
+  padding: 0.4em;
+  margin-bottom: 1.3em;
+  font-size: 1.3em;
+}
+
+.card p {
+  color: #555;
+  margin-bottom: 1em;
+}
+
+.card p span {
+  font-weight: bold;
+}
+
+.category_text {
+  display: flex;
+  align-items: center;
+}
+
+.category_text span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #CCC;
+  margin-right: 5px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.category_text .infra {
+  background-color: #FFAEBC;
+  box-shadow: 0 0 0 2px rgba(185, 104, 118, 1);
+}
+.category_text .development {
+  background-color: #A0E7E5;
+  box-shadow: 0 0 0 2px rgba(90, 161, 159, 1);
+}
+.category_text .planning {
+  background-color: #B4F8C8;
+  box-shadow: 0 0 0 2px rgba(110, 178, 130, 1);
+}
+.category_text .design {
+  background-color: #FBE7C6;
+  box-shadow: 0 0 0 2px rgba(181, 161, 128, 1);
+}
+
+.actions {
+  margin-top: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.actions a,
+.actions button {
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #001122;
+  color: white;
+  font-size: 0.9em;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.actions svg {
+  margin-right: 0.5em;
+}
+
+.actions a:hover,
+.actions button:hover {
+  color: #001122;
+  background-color: white;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+}
